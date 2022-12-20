@@ -5,7 +5,7 @@ import DefaultVariants from "../utils/default_variants";
 export default function Projects() {
   return (
     <motion.main
-      className='p-[8rem_20%]'
+      className='p-[8rem_8%] xl:p-[8rem_20%]'
       initial="initial"
       animate="visible"
       variants={{
@@ -45,11 +45,11 @@ export default function Projects() {
                       </h5>
                       <p className="text-[var(--gray)] text-center text-[0.8rem]">{project.description}</p>
                     </div>
-                    <div className="columns-2 gap-8">
+                    <div className="xl:columns-2 gap-8">
                       {
                         project.images.map((image, i2) => {
-                          return <div key={i2} className="w-full rounded-2xl overflow-hidden mb-8">
-                            <img src={image} alt={image} />
+                          return <div key={i2} className="w-full text-center xl:text-left rounded-2xl overflow-hidden mb-8">
+                            <img className="inline-block" src={image} alt={image} />
                           </div>
                         })
                       }

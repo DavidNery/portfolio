@@ -6,7 +6,7 @@ import DefaultVariants from '../utils/default_variants';
 export default function Home() {
   return (
     <>
-      <main className='h-[100vh] flex items-center justify-center flex-col'>
+      <main className='min-h-[100vh] flex items-center justify-center flex-col'>
         <motion.div
           className='text-center'
           initial="initial"
@@ -19,7 +19,7 @@ export default function Home() {
             }
           }}
         >
-          <motion.h2 variants={DefaultVariants} className='text-7xl uppercase font-bold text-white mb-6'>
+          <motion.h2 variants={DefaultVariants} className='text-6xl xl:text-7xl uppercase font-bold text-white mb-6'>
             Dery
             <span className="text-[var(--primary-color)]"> Developer</span>
           </motion.h2>
