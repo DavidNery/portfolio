@@ -1,5 +1,6 @@
-const ProjectList = {
-  "Web Developer": {
+const ProjectList = [
+  {
+    title: "Web Developer",
     description: "Projects developed by me for web, including backend, frontend and UI/UX",
     projects: [
       {
@@ -132,18 +133,19 @@ const ProjectList = {
       }
     ]
   },
-  "Plugin Developer": {
+  {
+    title: "Plugin Developer",
     description: "Spigot plugins developed by me",
     projects: [
       {
         title: 'Sword spanwer',
         description: 'A plugin that make spawners drop swords',
-        images: [ 'https://i.imgur.com/723FHXR.gif' ]
+        images: ['https://i.imgur.com/723FHXR.gif']
       },
       {
         title: 'Inventory Saver',
         description: 'A plugin that save players\' inventories and allow them to get inventories again',
-        images: [ 'https://i.imgur.com/O0fr7ph.gif' ]
+        images: ['https://i.imgur.com/O0fr7ph.gif']
       },
       {
         title: 'Events',
@@ -201,6 +203,6 @@ const ProjectList = {
       },
     ]
   }
-};
+];
 
 export default ProjectList;

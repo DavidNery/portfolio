@@ -21,7 +21,7 @@ export default function Projects() {
       </motion.div>
       <motion.div variants={DefaultVariants}>
         {
-          Object.keys(ProjectList).map((category, index) => {
+          ProjectList.map((project, index) => {
             return <motion.div
               key={index}
               initial="initial"
@@ -34,10 +34,10 @@ export default function Projects() {
                 }
               }}
             >
-              <h3 className="text-white text-2xl font-medium">{category}</h3>
-              <h4 className="text-[var(--gray)] text-base leading-relaxed">{ProjectList[category].description}</h4>
+              <h3 className="text-white text-2xl font-medium">{project.title}</h3>
+              <h4 className="text-[var(--gray)] text-base leading-relaxed">{project.description}</h4>
               {
-                ProjectList[category].projects.map((project, i) => {
+                project.projects.map((project, i) => {
                   return <motion.section variants={DefaultVariants} key={i} className='mt-12 first-of-type:mt-0'>
                     <div className="bg-[rgba(0,0,0,0.5)] backdrop-blur-sm mb-2 py-4 sticky top-0">
                       <h5 className="text-[var(--primary-color)] text-[0.95rem] text-center font-bold leading-tightng-">
