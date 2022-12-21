@@ -58,6 +58,10 @@ a {
   background-color: white;
 }
 
+.cursor-inner, .cursor-outer {
+  visibility: hidden;
+}
+
 .cursor-inner {
   position: fixed;
   width: 5px;
@@ -97,6 +101,12 @@ a {
   height: 70px;
   margin-top: -35px;
   margin-left: -35px;
+}
+
+@media screen and (min-width: 1024px) {
+  .cursor-inner, .cursor-outer {
+    visibility: visible;
+  }
 }
 
 nav {

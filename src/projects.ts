@@ -67,7 +67,10 @@ const ProjectList = [
           'https://i.imgur.com/8AefHe6.png',
           'https://i.imgur.com/h3W4FZ4.png',
           'https://i.imgur.com/3uIcEvC.png'
-        ]
+        ],
+        links: {
+          github: "https://github.com/DavidNery/old-websites/tree/main/site"
+        }
       },
       {
         title: 'My first site',
@@ -78,7 +81,10 @@ const ProjectList = [
           'https://i.imgur.com/YygPdq8.png',
           'https://i.imgur.com/5820l1y.png',
           'https://i.imgur.com/DuDmwhN.png'
-        ]
+        ],
+        links: {
+          github: "https://github.com/DavidNery/old-websites/tree/main/site2"
+        }
       },
       {
         title: 'Builder Team Website',
@@ -92,7 +98,10 @@ const ProjectList = [
           'https://i.imgur.com/mHF8c6P.png',
           'https://i.imgur.com/ZKGHgGS.png',
           'https://i.imgur.com/tf7GURY.png'
-        ]
+        ],
+        links: {
+          github: "https://github.com/DavidNery/old-websites/tree/main/site3"
+        }
       },
       {
         title: 'Minecraft Server Site',
@@ -106,14 +115,17 @@ const ProjectList = [
           'https://i.imgur.com/VnqWp6t.png',
           'https://i.imgur.com/MfVX7UP.png',
           'https://i.imgur.com/pXIIBd9.png',
-          'https://i.imgur.com/eWj0I5c.png'
-        ]
+          'https://i.imgur.com/eWj0I5c.png',
+          'https://i.imgur.com/uhkyxvC.png'
+        ],
+        links: {
+          github: "https://github.com/DavidNery/old-websites/tree/main/site4"
+        }
       },
       {
         title: 'Seniors Team Site',
         description: 'A simple and beatiful website I made for Seniors Team',
         images: [
-          'https://i.imgur.com/uhkyxvC.png',
           'https://i.imgur.com/a5Cd7pd.png',
           'https://i.imgur.com/Yd50RZV.png',
           'https://i.imgur.com/uY4PNSD.png',
@@ -124,7 +136,10 @@ const ProjectList = [
           'https://i.imgur.com/svq2UVZ.png',
           'https://i.imgur.com/MGp44SI.png',
           'https://i.imgur.com/INhkuZ2.png'
-        ]
+        ],
+        links: {
+          github: "https://github.com/DavidNery/senior-test-website"
+        }
       },
       {
         title: 'Seniors Team Marketplace Design',
@@ -138,14 +153,17 @@ const ProjectList = [
     description: "Spigot plugins developed by me",
     projects: [
       {
-        title: 'Sword spanwer',
+        title: 'Sword spawner',
         description: 'A plugin that make spawners drop swords',
         images: ['https://i.imgur.com/723FHXR.gif']
       },
       {
         title: 'Inventory Saver',
         description: 'A plugin that save players\' inventories and allow them to get inventories again',
-        images: ['https://i.imgur.com/O0fr7ph.gif']
+        images: ['https://i.imgur.com/O0fr7ph.gif'],
+        links: {
+          github: "https://github.com/DavidNery/SeniorsInventorySaver"
+        }
       },
       {
         title: 'Events',
@@ -199,7 +217,10 @@ const ProjectList = [
         description: 'A plugin that allow your players to see how to craft items',
         images: [
           'https://i.imgur.com/PGgXZ4A.gif'
-        ]
+        ],
+        links: {
+          site: "https://www.spigotmc.org/resources/shapehelper.105357/"
+        }
       },
     ]
   }
