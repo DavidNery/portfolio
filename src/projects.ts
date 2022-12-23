@@ -1,4 +1,18 @@
-const ProjectList = [
+interface ProjectListType {
+  title: string,
+  description: string,
+  projects: {
+    title: string,
+    description: string,
+    images: string[],
+    links?: {
+      github?: string,
+      site?: string
+    }
+  }[]
+}
+
+const ProjectList: ProjectListType[] = [
   {
     title: "Web Developer",
     description: "Projects developed by me for web, including backend, frontend and UI/UX",
@@ -222,6 +236,21 @@ const ProjectList = [
           site: "https://www.spigotmc.org/resources/shapehelper.105357/"
         }
       },
+      {
+        title: 'UltimateBans',
+        description: 'Experimental bans plugin',
+        images: [
+          'https://i.imgur.com/d1kQzR2.png',
+          'https://i.imgur.com/h7nlWrR.png',
+          'https://i.imgur.com/leOxxEx.png',
+          'https://i.imgur.com/LwCzc0p.png',
+          'https://i.imgur.com/725xPF0.png',
+          'https://i.imgur.com/qPW80bc.png'
+        ],
+        links: {
+          github: 'https://github.com/DavidNery/UltimateBans'
+        }
+      }
     ]
   }
 ];
