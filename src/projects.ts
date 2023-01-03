@@ -159,6 +159,29 @@ const ProjectList: ProjectListType[] = [
         title: 'Seniors Team Marketplace Design',
         description: 'A design I made for Seniors Team Marketplace',
         images: ['https://i.imgur.com/cQlUIgJ.png']
+      },
+      {
+        title: 'MinecraftList.dk',
+        description: 'A minecraft server list and voting website',
+        images: [
+          'https://i.imgur.com/sKL0Ect.png',
+          'https://i.imgur.com/cNfmnH1.png',
+          'https://i.imgur.com/TVcDTKF.png',
+          'https://i.imgur.com/0ShZu4o.png',
+          'https://i.imgur.com/gxi1sxG.png',
+          'https://i.imgur.com/Yr1UsVT.png',
+          'https://i.imgur.com/PPfV6rF.png',
+          'https://i.imgur.com/nfMCAK9.png',
+          'https://i.imgur.com/rgY7K3W.png',
+          'https://i.imgur.com/85Wluc4.png',
+          'https://i.imgur.com/obXbqDb.png',
+          'https://i.imgur.com/Cn5xH1T.png',
+          'https://i.imgur.com/zbEPa6K.png',
+          'https://i.imgur.com/MOF7y1b.png',
+        ],
+        links: {
+          site: "https://minecraftlist.dk/"
+        }
       }
     ]
   },
