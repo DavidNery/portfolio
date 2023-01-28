@@ -1,15 +1,17 @@
-interface ProjectListType {
+export interface Project {
   title: string,
   description: string,
-  projects: {
-    title: string,
-    description: string,
-    images: string[],
-    links?: {
-      github?: string,
-      site?: string
-    }
-  }[]
+  images: string[],
+  links?: {
+    github?: string,
+    site?: string
+  }
+}
+
+export interface ProjectListType {
+  title: string,
+  description: string,
+  projects: Project[]
 }
 
 const ProjectList: ProjectListType[] = [
