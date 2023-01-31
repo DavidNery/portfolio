@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import { useCallback, useState } from "react";
 import { Project as ProjectType } from "../src/projects";
 import DefaultVariants from "../utils/default_variants";
@@ -55,7 +56,13 @@ const Project = ({ project }: Props) => {
             {
               project.images.map((image, i2) => {
                 return <div key={i2} className="w-full text-center xl:text-left rounded-2xl overflow-hidden mb-8">
-                  <img className="inline-block" src={image} alt={image} loading='lazy' />
+                  {
+                    image.endsWith('.mp4') ? (
+                      <video className="inline-block" src={image} autoPlay={false} controls={true}></video>
+                    ) : (
+                      <img className="inline-block" src={image} alt={image} loading='lazy' />
+                    )
+                  }
                 </div>
               })
             }

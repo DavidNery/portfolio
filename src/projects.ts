@@ -184,6 +184,26 @@ const ProjectList: ProjectListType[] = [
         links: {
           site: "https://minecraftlist.dk/"
         }
+      },
+      {
+        title: 'Integrated Minecraft Web Panel',
+        description: 'A webpanel that communicate with minecraft server and allow staffs to check and do a lot of things',
+        images: [
+          'https://i.imgur.com/ajZqBfP.mp4',
+          'https://i.imgur.com/3U4LX7a.mp4',
+          'https://i.imgur.com/VKdy0Tj.mp4',
+          'https://i.imgur.com/qUUuFar.mp4',
+          'https://i.imgur.com/fHIM9oe.mp4',
+          'https://i.imgur.com/KVIRruT.mp4',
+          'https://i.imgur.com/NOnn8Gc.mp4',
+          'https://i.imgur.com/75YxEm9.mp4',
+          'https://i.imgur.com/6nKmGwL.mp4',
+          'https://i.imgur.com/H1ezU44.mp4',
+          'https://i.imgur.com/FyRBHfY.mp4',
+          'https://i.imgur.com/w3xST6i.mp4',
+          'https://i.imgur.com/4YqUcRW.mp4',
+          'https://i.imgur.com/x9xhgIW.mp4',
+        ],
       }
     ]
   },
