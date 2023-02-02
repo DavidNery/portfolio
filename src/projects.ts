@@ -203,6 +203,7 @@ const ProjectList: ProjectListType[] = [
           'https://i.imgur.com/w3xST6i.mp4',
           'https://i.imgur.com/4YqUcRW.mp4',
           'https://i.imgur.com/x9xhgIW.mp4',
+          'https://i.imgur.com/BTrvZkk.mp4'
         ],
       }
     ]
