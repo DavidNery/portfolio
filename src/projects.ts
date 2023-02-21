@@ -205,6 +205,21 @@ const ProjectList: ProjectListType[] = [
           'https://i.imgur.com/x9xhgIW.mp4',
           'https://i.imgur.com/BTrvZkk.mp4'
         ],
+      },
+      {
+        title: 'EustomaMC Website',
+        description: 'Website for minecraft server EustomaMC',
+        images: [
+          'https://i.imgur.com/AbEvL7T.png',
+          'https://i.imgur.com/EAnSDly.png',
+          'https://i.imgur.com/7QSqfNg.png',
+          'https://i.imgur.com/hI6qNhi.png',
+          'https://i.imgur.com/M5Ht7Hq.png',
+          'https://i.imgur.com/sXujqC6.png',
+          'https://i.imgur.com/wkpTPGn.mp4',
+          'https://i.imgur.com/fTBtRI6.png',
+          'https://i.imgur.com/iqxcqfI.mp4'
+        ],
       }
     ]
   },
