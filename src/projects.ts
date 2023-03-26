@@ -220,6 +220,22 @@ const ProjectList: ProjectListType[] = [
           'https://i.imgur.com/fTBtRI6.png',
           'https://i.imgur.com/iqxcqfI.mp4'
         ],
+        links: {
+          site: "https://eustomamc.net/"
+        }
+      },
+      {
+        title: 'BlurCraft Website',
+        description: 'Website for minecraft server Blurcraft, with plugin that allow staffs to change votes links, requirements and rules directly ingame',
+        images: [
+          'https://i.imgur.com/g1U5nXr.png',
+          'https://i.imgur.com/hv4d28I.png',
+          'https://i.imgur.com/0pvZbxv.png',
+          'https://i.imgur.com/OMY2qGe.png',
+        ],
+        links: {
+          site: "https://blurcraft.com/"
+        }
       }
     ]
   },
