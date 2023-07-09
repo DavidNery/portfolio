@@ -236,6 +236,17 @@ const ProjectList: ProjectListType[] = [
         links: {
           site: "https://blurcraft.com/"
         }
+      },
+      {
+        title: 'Frex portfolio',
+        description: 'Website made for a client',
+        images: [
+          'https://i.imgur.com/lkUFtY8.png',
+          'https://i.imgur.com/Hs9iqTm.png'
+        ],
+        links: {
+          site: "https://xerf.social/"
+        }
       }
     ]
   },
