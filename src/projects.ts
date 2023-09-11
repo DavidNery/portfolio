@@ -247,6 +247,18 @@ const ProjectList: ProjectListType[] = [
         links: {
           site: "https://xerf.social/"
         }
+      },
+      {
+        title: 'OrbitalStudios trial',
+        description: 'Website made for OrbitalStudios trial',
+        images: [
+          'https://i.imgur.com/AMGUQFe.png',
+          'https://i.imgur.com/nn0ZS7f.jpg'
+        ],
+        links: {
+          github: "https://github.com/DavidNery/orbital-trial",
+          site: "https://davidnery.github.io/orbital-trial/"
+        }
       }
     ]
   },
