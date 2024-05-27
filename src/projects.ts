@@ -259,6 +259,17 @@ const ProjectList: ProjectListType[] = [
           github: "https://github.com/DavidNery/orbital-trial",
           site: "https://davidnery.github.io/orbital-trial/"
         }
+      },
+      {
+        title: 'CosmicGalaxy WebSite',
+        description: 'Website made for the Minecraft Server CosmicGalaxy',
+        images: [
+          'https://i.imgur.com/FKx5txN.mp4',
+          'https://i.imgur.com/9wHqOTX.mp4'
+        ],
+        links: {
+          site: "https://cosmicgalaxy.net"
+        }
       }
     ]
   },
