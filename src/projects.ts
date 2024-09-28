@@ -270,7 +270,7 @@ const ProjectList: ProjectListType[] = [
         links: {
           site: "https://cosmicgalaxy.net"
         }
-      }
+      },
     ]
   },
   {
