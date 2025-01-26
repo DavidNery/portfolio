@@ -20,6 +20,18 @@ const ProjectList: ProjectListType[] = [
     description: "Projects developed by me for web, including backend, frontend and UI/UX",
     projects: [
       {
+        title: 'Studae',
+        description: 'A course selling website developed years ago',
+        images: [
+          'https://i.imgur.com/Ksv5MoM.png',
+          'https://i.imgur.com/nFOCFx7.png',
+          'https://i.imgur.com/39I1hRq.png',
+          'https://i.imgur.com/HBzopjL.png',
+          'https://i.imgur.com/pI7O1RF.png',
+          ''
+        ]
+      },
+      {
         title: 'Plugin store',
         description: 'An old store plugin I made for a friend',
         images: [
