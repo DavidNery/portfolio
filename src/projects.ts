@@ -373,6 +373,13 @@ const ProjectList: ProjectListType[] = [
         links: {
           github: 'https://github.com/DavidNery/UltimateBans'
         }
+      },
+      {
+        title: 'ARMAuction Chests',
+        description: 'Put items inside chests in an ARMAuction on sold after the area reset',
+        images: [
+          'https://i.imgur.com/2LBvh3C.mp4'
+        ]
       }
     ]
   }
